@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+"""
+This module defines the Square class.
+
+It's a foundational module for creating square objects with a _size attribute.
+"""
+
 
 class Square:
-
     """
     Represents a square.
 
@@ -10,13 +15,12 @@ class Square:
     is crucial for accurate calculations like area.
 
     Attributes:
-        __size (int): The size of a side of the square. It's private to
-                      ensure data integrity and validation through
-                      controlled access (will be implemented in todo tasks).
+        __size (int): The size of one side of the square. It's kept private
+                      to ensure data integrity and validation through
+                      controlled access (will be implemented in future tasks).
     """
 
     def __init__(self, size):
-
         """
         Initializes a new Square instance.
 
